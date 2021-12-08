@@ -17,6 +17,8 @@
 		28EED6B5275FC87600E97E98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED68B275FC87500E97E98 /* ContentView.swift */; };
 		28EED6B6275FC87600E97E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EED68C275FC87600E97E98 /* Assets.xcassets */; };
 		28EED6B7275FC87600E97E98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28EED68C275FC87600E97E98 /* Assets.xcassets */; };
+		28EED6C7275FC9ED00E97E98 /* LifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6C6275FC9ED00E97E98 /* LifeModel.swift */; };
+		28EED6C8275FC9ED00E97E98 /* LifeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EED6C6275FC9ED00E97E98 /* LifeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,7 @@
 		28EED6AA275FC87600E97E98 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28EED6AE275FC87600E97E98 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		28EED6B0275FC87600E97E98 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		28EED6C6275FC9ED00E97E98 /* LifeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 			children = (
 				28EED68A275FC87500E97E98 /* GameOfLifeApp.swift */,
 				28EED68B275FC87500E97E98 /* ContentView.swift */,
+				28EED6C6275FC9ED00E97E98 /* LifeModel.swift */,
 				28EED68C275FC87600E97E98 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -301,6 +305,7 @@
 			files = (
 				28EED6B4275FC87600E97E98 /* ContentView.swift in Sources */,
 				28EED6B2275FC87600E97E98 /* GameOfLifeApp.swift in Sources */,
+				28EED6C7275FC9ED00E97E98 /* LifeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				28EED6B5275FC87600E97E98 /* ContentView.swift in Sources */,
 				28EED6B3275FC87600E97E98 /* GameOfLifeApp.swift in Sources */,
+				28EED6C8275FC9ED00E97E98 /* LifeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
