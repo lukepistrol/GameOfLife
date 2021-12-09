@@ -10,15 +10,16 @@ import SwiftUI
 @main
 struct GameOfLifeApp: App {
 	
-	@StateObject private var lifeModel: LifeModel = .init(with: 60)
+	@StateObject private var lifeModel: GOLModel = .init(with: 30)
 	
     var body: some Scene {
         WindowGroup {
             ContentView()
 				.environmentObject(self.lifeModel)
 			#if os(macOS)
-				.frame(minWidth: 500, idealWidth: 600, maxWidth: .infinity, minHeight: 600, idealHeight: 700, maxHeight: .infinity)
+				.frame(width: 900, height: 900)
 			#endif
+				.preferredColorScheme(.dark)
         }
     }
 }
