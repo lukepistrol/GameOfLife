@@ -10,6 +10,8 @@
 
 Swift implementation of Conway's Game of Life
 
+![Preview Game Of Life on macOS](https://github.com/lukepistrol/GameOfLife/blob/main/Resources/Preview.gif "Game Of Life on macOS")
+
 This app will run on both **iOS 15** and **macOS 12**
 
 **Feel free to check out my other projects on my [website](https://lukaspistrol.com)**
